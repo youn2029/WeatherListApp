@@ -29,7 +29,7 @@ class weatherVO {
 class WeatherModel {
     
     // 날씨 API KEY
-    let WEATHER_API_KEY: String = "3e6bd80952a7fb79b90581d90cd6bfb3"
+    let WEATHER_API_KEY: String = Bundle.main.apiKey
     
     // MARK: - facth
     // 현재 시간의 날씨 가져오기
